@@ -344,13 +344,13 @@ msgid "About you:"
 msgstr "A propos de vous:"
 
 msgid "About {{count}} FOI requests found"
-msgstr ""
+msgstr "Détail sur {{count}} démande(s) trouvée(s) "
 
 msgid "Act on what you've learnt"
 msgstr "Agissez en fonction de ce que vous avez appris."
 
 msgid "Action needed"
-msgstr ""
+msgstr "Action démandée"
 
 msgid "Actions"
 msgstr ""
@@ -368,7 +368,7 @@ msgid "Add a widget"
 msgstr "Ajouter un widget"
 
 msgid "Add an annotation"
-msgstr ""
+msgstr "Ajouter une annotation"
 
 msgid "Add an annotation to &ldquo;{{request_title}}&rdquo;"
 msgstr "Ajouter une annotation &ldquo;{{request_title}}&rdquo;"
@@ -488,7 +488,7 @@ msgid "An <strong>error message</strong> has been received"
 msgstr "Un <strong>message d'erreur</strong> a été reçu."
 
 msgid "An Environmental Information request"
-msgstr "Un demande d'accès pour une information environnementale"
+msgstr "Une demande d'accès à une information environnementale"
 
 msgid "An anonymous user"
 msgstr "Un utilisateur anonyme"
@@ -500,7 +500,7 @@ msgid "Annotation contains defamatory material"
 msgstr ""
 
 msgid "Annotation contains personal information"
-msgstr ""
+msgstr "L'annotation contient des renseignements personnels"
 
 msgid "Annotations"
 msgstr "Remarques"
