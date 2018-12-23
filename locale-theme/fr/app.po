@@ -953,7 +953,7 @@ msgid "Either the email or password was not recognised, please try again."
 msgstr "Le courriel ou le mot de passe n'ont pas été reconnus, s'il vous plaît essayez de nouveau."
 
 msgid "Either the email or password was not recognised, please try again. Or create a new account using the form on the left."
-msgstr ""
+msgstr "Email ou mot de passe non  reconnu, veuillez réessayer ou créez un nouveau compte en utilisant le formulaire à gauche."
 
 msgid "Email doesn't look like a valid address"
 msgstr "Le courriel ne ressemble pas à une adresse valide"
@@ -989,10 +989,10 @@ msgid "Event {{id}}"
 msgstr "Evènement {{id}}"
 
 msgid "Every citizen has the right to access information held by public authorities."
-msgstr "Chaque citoyen a la droit d'accédez aux informations détenues par les autorités publiques."
+msgstr "Chaque citoyen a le droit d'accéder aux informations détenues par les autorités publiques."
 
 msgid "Everything that you enter on this page, including <strong>your name</strong>, will be <strong>displayed publicly</strong> on this website <a href=\"{{url}}\">forever</a>"
-msgstr "Tout ce que vous indiquez dans cette page, y compris <strong>votre nom </strong>,\\n va etre  <strong>public </strong> sur \\n ce site (<a href=\"{{url}}\">pourquoi?</a>)."
+msgstr "Tout ce que vous indiquez dans cette page, y compris <strong>votre nom </strong>,\\n va etre  <strong>public </strong> sur \\n ce site (<a href=\"{{url}}\">pour toujours</a>)."
 
 msgid "FOI"
 msgstr "DAI"
@@ -1004,7 +1004,7 @@ msgid "FOI law does not apply to this authority."
 msgstr "La loi sur l’accès à l’information n’est pas valide pour cette autorité."
 
 msgid "FOI request – {{title}}"
-msgstr "Demande d'acceès a l'information– {{title}}"
+msgstr "Demande d'accès a l'information– {{title}}"
 
 msgid "FOI requests"
 msgstr "Demandes DAI"
@@ -1013,7 +1013,7 @@ msgid "FOI requests by '{{user_name}}'"
 msgstr "Demandes DAI de '{{user_name}}'"
 
 msgid "FOI requests {{start_count}} to {{end_count}} of about {{total_count}}"
-msgstr ""
+msgstr "De {{start_count}} à {{end_count}} demandes sur un total de {{total_count}}"
 
 msgid "FOI response requires admin ({{reason}}) - {{request_title}}"
 msgstr "Réponse necessitant  l'administration ({{reason}}) - {{request_title}}"
