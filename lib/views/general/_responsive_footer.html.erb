@@ -27,29 +27,11 @@
     </div>
     
     <div class="footer__about">
-      <h2><%= site_name %></h2>
-      <%= render :partial => 'general/responsive_credits' %>
-      <ul class="about__contact-links">
-        <li>
-          <%= link_to _('Contact us'), help_contact_path %>
-        </li>
-        <li>
-          <%= link_to _('Help'), help_path %>
-        </li>
-        <li>
-          <%= link_to _('Privacy and cookies'), help_privacy_path %>
-        </li>
-        <li>
-          <%= link_to _('API'), help_api_path %>
-        </li>
-        <% if feature_enabled?(:pro_pricing) %>
-        <li>
-          <%= link_to _('{{pro_site_name}} Terms',
-                        pro_site_name: AlaveteliConfiguration.pro_site_name),
-                        pro_page_path(:id => 'legal') %>
-        </li>
-        <% end %>
-      </ul>
+      <h2>Sponsorisé par :</h2>
+     
+        < img href="assets/images/osisalogo.jpg" />
+       
+     
     </div>
 
   </div>
