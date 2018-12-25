@@ -21,8 +21,6 @@
         <a href="#" class="close"> <i class="icon-menu"></i> Close </a>
       </div>
 
-      <%= render :partial => 'general/locale_switcher' %>
-
       <div id="navigation_search" class="navigation_search">
         <form id="navigation_search_form" class="navigation_search_form" method="get" action="<%= search_redirect_path %>" role="search">
           <label class="visually-hidden" for="navigation_search_button">
@@ -36,6 +34,7 @@
           </button>
         </form>
       </div>
+      <%= render :partial => 'general/locale_switcher' %>
     </div>
 
     <%= render :partial => 'general/responsive_topnav' %>
