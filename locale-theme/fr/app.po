@@ -3467,7 +3467,7 @@ msgid "To send a message to {{user_name}}"
 msgstr "Pour envoyer un message à {{user_name}}"
 
 msgid "To send and publish your FOI request"
-msgstr ""
+msgstr "Pour envoyer et publier une DAI"
 
 msgid "To send your request to another authority, first copy the text of your request below, then <a href=\"{{find_authority_url}}\">find the other authority</a>."
 msgstr "Pour envoyer votre demande à une autre autorité, d'abord copier le texte de votre demande ci-dessous, puis <a href=\"{{find_authority_url}}\">trouver l'autre autorité</a>."
@@ -3572,13 +3572,13 @@ msgid "Unable to send follow up message to {{username}}"
 msgstr "Impossible d'envoyer un message de suivi à {{username}}"
 
 msgid "Unavailable"
-msgstr ""
+msgstr "Indisponible"
 
 msgid "Unexpected search result type {{result_type}}"
 msgstr "Type de résultat de recherche inattendu {{result_type}}"
 
 msgid "Unfollow"
-msgstr ""
+msgstr "Ne pas suivre"
 
 msgid "Unfortunately, we do not have a working address for {{public_body_names}}."
 msgstr "Malheureusement, nous n'avons pas une adresse active de {{public_body_names}}."
@@ -3638,13 +3638,13 @@ msgid "Users cannot usually make batch requests to multiple authorities at once 
 msgstr "Les utilisateurs ne peuvent pas faire un paquet de demandes aux multiple autorité à la fois parce que nous ne voulons pas que les autorités publiques soient bombardés avec un grand nombre de demandes inappropriées. Veuillez <a href=\"{{url}}\">nous contacter</a> si vous croyez avoir une bonne raison d'envoyer la même demande à plusieurs autorités à la fois."
 
 msgid "User|About me"
-msgstr "User|About me"
+msgstr "User|A propos"
 
 msgid "User|Ban text"
 msgstr "User|Ban text"
 
 msgid "User|Can make batch requests"
-msgstr "User|Can make batch requests"
+msgstr "User|peut faire des demandes par lots"
 
 msgid "User|Comments count"
 msgstr "User|Nombre de commentaires"
@@ -3653,10 +3653,10 @@ msgid "User|Confirmed not spam"
 msgstr "User|Confirmé comme non spam"
 
 msgid "User|Daily summary hour"
-msgstr ""
+msgstr "User|Nbre d'heures par jour"
 
 msgid "User|Daily summary minute"
-msgstr ""
+msgstr "User|Nbre de Min par jour"
 
 msgid "User|Email"
 msgstr "User|Email"
@@ -3668,7 +3668,7 @@ msgid "User|Email bounced at"
 msgstr "User|Email bounced at"
 
 msgid "User|Email confirmed"
-msgstr "User|Email confirmed"
+msgstr "User|Email confirmée"
 
 msgid "User|Hashed password"
 msgstr "User|Hashed password"
@@ -3776,7 +3776,7 @@ msgid "We consider it to be vexatious, and have therefore hidden it from other u
 msgstr "Considéré par les administrateurs comme offensant et n'apparaîtra pas sur le site."
 
 msgid "We couldn't determine the delivery status of this message. It can take up to 24 hours after the message has been sent to determine delivery status information."
-msgstr ""
+msgstr "Nous n'avons pas pu déterminer l'état de livraison de ce message. Il peut prendre jusqu'à 24 heures après que le message a été envoyé pour déterminer les informations d'état de livraison"
 
 msgid "We couldn’t display any logs for this message."
 msgstr "Vous pouvez afficher tous les logs pour ce message."
@@ -3791,7 +3791,7 @@ msgid "We do not have a working {{law_used_full}} address for {{public_body_name
 msgstr "Nous ne disposons pas d'adresse  {{law_used_full}}  pour {{public_body_name}}."
 
 msgid "We don't know the delivery status for this message."
-msgstr ""
+msgstr "Nous ne connaissons pas l'état de livraison de ce message."
 
 msgid "We don't know whether the most recent response to this request contains information or not &ndash; if you are {{user_link}} please <a href=\"{{url}}\">sign in</a> and let everyone know."
 msgstr "Nous ne savons pas si la réponse la plus récente à cette demande contient l'information \\n ou non \\n   &ndash;\\n\tsi vous etes  {{user_link}} veuillez <a href=\"{{url}}\">vous connecter</a> et laisser nous savoir."
@@ -3849,7 +3849,7 @@ msgid "We've sent you an email, and you'll need to click the link in it before y
 msgstr "Nous avons envoyé un email . Vous devez cliquer sur le lien dans \\n pour pouvoir continuer."
 
 msgid "Week starting"
-msgstr ""
+msgstr "Début de la semaine"
 
 msgid "What are you doing?"
 msgstr "Qu'est ce que vous faites?"
@@ -3870,7 +3870,7 @@ msgid "What next?"
 msgstr "C’est quoi la suite?"
 
 msgid "What's happened:"
-msgstr ""
+msgstr "Que s'est-il passé:"
 
 msgid "When you get there, please update the status to say if the response contains any useful information."
 msgstr "Quand vous y arrivez, veuillez mettre à jour le statut et  dire si la réponse \\n contient une information utile."
@@ -4025,8 +4025,8 @@ msgstr[1] ""
 
 msgid "You can see the response with the following link:"
 msgid_plural "You can see the responses with the following links:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Vous pouvez voir la réponse avec le lien suivant:"
+msgstr[1] "Vous pouvez voir les réponses avec les liens suivants:"
 
 msgid "You can't update your profile text at this time."
 msgstr "Vous pouvez actualiser votre texte de profil en ce moment."
@@ -4074,7 +4074,7 @@ msgid "You may be able to find one on their website, or by phoning them up and a
 msgstr "Vous pourriez en trouver un sur leur site internet, ou en appelant et leur demander. Si vous en trouvez un, veuillez nous l'envoyer:"
 
 msgid "You might find some useful information in the notes we hold about '{{authority_name}}':"
-msgstr ""
+msgstr "Vous trouverez peut-être des informations utiles dans les notes que nous détenons sur '{{authority_name}}':"
 
 msgid "You need to be logged in to change the text about you on your profile."
 msgstr "Vous devez être connectés pour changer  votre description personnelle"
@@ -4155,15 +4155,15 @@ msgid "Your <strong>name will appear publicly</strong> (<a href=\"{{why_url}}\">
 msgstr "Votre <strong>nom va apparaître publiquement</strong>\\n        (<a href=\"{{why_url}}\">pourqoi?</a>)\\n       dans ce site et les moteurs de recherche . Si vous \\n      vous pensez à utiliser un pseudo veuillez \\n        <a href=\"{{help_url}}\">Lire ça </a>."
 
 msgid "Your FOI request - {{request_title}} has been made public on {{site_name}}"
-msgstr ""
+msgstr "Votre Demande d'information - {{request_title}} est rendue puplique sur le site {{site_name}} "
 
 msgid "Your FOI request - {{request_title}} will be made public on {{site_name}} this week"
-msgstr ""
+msgstr "Votre Demande d'information - {{request_title}} sera rendue puplique sur le site {{site_name}} cette semaine"
 
 msgid "Your Freedom of Information request"
 msgid_plural "Your Freedom of Information requests (approximately {{count}})"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Votre Demande d'Accès à l'Information"
+msgstr[1] "Vos demandes d'accès à l'information (environ {{count}})"
 
 msgid "Your annotations"
 msgstr "Vos commentaires "
@@ -4175,7 +4175,7 @@ msgid "Your current one time passcode:"
 msgstr "Votre code d'accès unique actuel :"
 
 msgid "Your daily request summary from {{pro_site_name}}"
-msgstr ""
+msgstr "Votre résumé des demandes quotidiennes de {{pro_site_name}}"
 
 msgid "Your details, including your email address, have not been given to anyone."
 msgstr "Vos coordonnées, y compris votre adresse e-mail, n'ont  été données à personne."
@@ -4232,7 +4232,7 @@ msgid "Your photo will be shown in public <strong>on the Internet</strong>, wher
 msgstr "Votre photo va apparaitre publiquement <strong> sur internet </strong> ,\\n a chaque fois que vous changez quelque chose sur {{site_name}}."
 
 msgid "Your request"
-msgstr ""
+msgstr "Votre Demande"
 
 msgid "Your request '{{request}}' at {{url}} has been reviewed by moderators."
 msgstr "Votre demande '{{request}}' sur {{url}} a été étudiée par les modérateurs."
@@ -4361,7 +4361,7 @@ msgid "authorities"
 msgstr "institutions"
 
 msgid "awaiting response"
-msgstr ""
+msgstr "en attente de réponse"
 
 msgid "but followupable"
 msgstr "Mais suivable"
@@ -4373,10 +4373,10 @@ msgid "by {{user_link_absolute}}"
 msgstr "par {{user_link_absolute}}"
 
 msgid "can't be nil"
-msgstr ""
+msgstr "ne peut pas être nul"
 
 msgid "clarification needed"
-msgstr ""
+msgstr "clarification nécessaire"
 
 msgid "comments"
 msgstr "commentaires"
@@ -4409,7 +4409,7 @@ msgid "external"
 msgstr "Externe"
 
 msgid "failed"
-msgstr ""
+msgstr "échoué"
 
 msgid "have delayed."
 msgstr "est en retard."
@@ -4457,7 +4457,7 @@ msgid "not requestable due to: {{reason}}"
 msgstr "non demandable en raison de: {{reason}}"
 
 msgid "other"
-msgstr ""
+msgstr "autre"
 
 msgid "overdue"
 msgstr ""
@@ -4478,7 +4478,7 @@ msgid "requests which are successful matching text '{{query}}'"
 msgstr "les demandes qui ont réussies correspondant au text '{{query}}'"
 
 msgid "response received"
-msgstr ""
+msgstr "réponse réçu"
 
 msgid "send a follow up message"
 msgstr "Envoyer un message de  suivi "
@@ -4528,7 +4528,7 @@ msgid "type your search term here"
 msgstr "Entrer votre terme de recherce ici"
 
 msgid "unknown"
-msgstr ""
+msgstr "inconnu"
 
 msgid "unknown reason"
 msgstr "raison inconnue"
@@ -4626,8 +4626,8 @@ msgstr[1] ""
 
 msgid "{{count}} request."
 msgid_plural "{{count}} requests."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{{count}} demande."
+msgstr[1] "{{count}} demandes."
 
 msgid "{{existing_request_user}} already created the same request on {{date}}. You can either view the <a href=\"{{existing_request}}\">existing request</a>, or edit the details below to make a new but similar request."
 msgstr "{{existing_request_user}}  a dejà effectué la même demande le {{date}}. Vous pouvez soit voir la <a href=\"{{existing_request}}\">demande existante </a>,\\n ou modifier les details ci dessous pour faire une nouvelle demande similaire ."
@@ -4651,8 +4651,8 @@ msgstr "depuis {{length_of_time}}"
 
 msgid "{{number_of_comments}} comment"
 msgid_plural "{{number_of_comments}} comments"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{{number_of_comments}} commentaire"
+msgstr[1] "{{number_of_comments}} commentaires"
 
 msgid "{{number_of_requests}} request"
 msgid_plural "{{number_of_requests}} requests"
@@ -4728,8 +4728,8 @@ msgstr "{{site_name}} Envoi de nouvelles demandes <strong>{{request_email}}</str
 
 msgid "{{site_name}} users have made {{number_of_requests}} request, including:"
 msgid_plural "{{site_name}} users have made {{number_of_requests}} requests, including:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Les utilisateurs de {{site_name}} ont effectué {{number_of_requests}} demande:"
+msgstr[1] "Les utilisateurs de {{site_name}} ont effectué {{number_of_requests}} demandes:"
 
 msgid "{{thing_changed}} was changed from <code>{{from_value}}</code> to <code>{{to_value}}</code>"
 msgstr "{{thing_changed}} was changed from <code>{{from_value}}</code> to <code>{{to_value}}</code>"
