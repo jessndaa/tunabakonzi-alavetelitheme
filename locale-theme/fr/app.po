@@ -2318,7 +2318,7 @@ msgid "ProAccount|Default embargo duration"
 msgstr ""
 
 msgid "Profile image for {{user_name}}"
-msgstr ""
+msgstr "Image de Profile de {{user_name}}"
 
 msgid "Profile photo"
 msgstr "Photo de profil"
@@ -2507,7 +2507,7 @@ msgid "Recently described results first"
 msgstr "Les résultats récemment  décris en premier "
 
 msgid "Refused"
-msgstr ""
+msgstr "Refusé"
 
 msgid "Refused."
 msgstr "Refusé."
@@ -2612,7 +2612,7 @@ msgid "Requests will be sent to the following bodies:"
 msgstr "Les demandes seront envoyées aux personalités suivantes:"
 
 msgid "Requires admin attention"
-msgstr ""
+msgstr "Attention de l'Admin recquise"
 
 msgid "Respond by email"
 msgstr "Répondre par e-mail "
@@ -2636,7 +2636,7 @@ msgid "Response from a public authority"
 msgstr "Réponse d'une autorité publique"
 
 msgid "Response received"
-msgstr ""
+msgstr "Réponse réçu"
 
 msgid "Response to '{{title}}'"
 msgstr "Réponse à  '{{title}}'"
@@ -2723,10 +2723,10 @@ msgid "Send a public reply to {{person_or_body}}"
 msgstr "Envoyer une réponse publique à {{person_or_body}}"
 
 msgid "Send and publish message"
-msgstr ""
+msgstr "Envoyez et Publiez le Message"
 
 msgid "Send and publish request"
-msgstr ""
+msgstr "Envoyez et Publiez la Demande"
 
 msgid "Send follow up to '{{title}}'"
 msgstr "Envoyer suivi à  '{{title}}'"
