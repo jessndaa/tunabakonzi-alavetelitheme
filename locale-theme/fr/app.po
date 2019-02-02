@@ -608,7 +608,7 @@ msgid "Browse <a href='{{url}}'>other requests</a> to '{{public_body_name}}' for
 msgstr "Parcourir <a href='{{url}}'>les autres demandes</a> to '{{public_body_name}}' , par exemple, comment formuler votre demande"
 
 msgid "Browse all authorities &rarr;"
-msgstr ""
+msgstr "Voir toutes les autorités &rarr;"
 
 msgid "Browse all requests &rarr;"
 msgstr "Parcourir toutes les requêtes &rarr;"
