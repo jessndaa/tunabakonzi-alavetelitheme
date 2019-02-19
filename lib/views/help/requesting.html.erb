@@ -4,7 +4,7 @@
 <div id="left_column_flip" class="left_column_flip">
   <h1 id="making_requests"><%= @title %> <a href="#making_requests">#</a></h1>
   <dl>
-  
+ <p> 
   C’est simple : le Collectif 24 a mis en place un formulaire de demande en information. Ceci est facile pour les 
   Institutions proches du demandeur et exige la présence physique du requérant devant le préposé en information. 
   A travers <%= site_name %> vous n’avez pas besoin de se déplacer.
@@ -12,19 +12,23 @@ Tout Citoyen congolais et les résidents ont le droit, protégé par les Instrum
 relatifs au droit d’accès à l’information en RDC de demander à toutes les institutions publiques au niveau locale, 
 provinciale et nationale ainsi que les institutions privées d’utilité publiques pour les documents et informations en leur
  possession sans aucune justification.
-En rapport avec la procédure, le délai et les recours, la loi sous examen l’évoque. Ces dispositions seront mises en ligne si
+ </p>
+<p>En rapport avec la procédure, le délai et les recours, la loi sous examen l’évoque. Ces dispositions seront mises en ligne si
 la loi est votée et promulguée.  
 Organisations non gouvernementales, les entreprises et les autres « personnes morales » enregistrés en RDC ont également les
  mêmes droits que les personnes de demander des documents.
-•	envoyer une demande : C’est très simple : vous trouverez l’institution dans le site <%= site_name %> auquel vous souhaitez soumettre une demande d’information, vous écrivez votre message, pré visualisez, appuyez sur « envoyer » et votre demande est automatiquement envoyée à l’institution et publié sur <%= site_name %>.
+ <ul>
+   <li>	<b>envoyer une demande :</b> C’est très simple : vous trouverez l’institution dans le site <%= site_name %> auquel vous souhaitez soumettre 
+   une demande d’information, vous écrivez votre message, pré visualisez, appuyez sur « envoyer » et votre demande est automatiquement
+   envoyée à l’institution et publié sur <%= site_name %>.</li>
 •	Les institutions détentrices d’information livrent l’information requise endéans 08 jours. Mais si la requête porte sur une donnée jugée nécessaire pour la protection de la vie et de la liberté d’une personne, une réponse doit être donnée endéans 24 heures de la réception de la requête. 
 •	attendre la réponse : lorsque le détenteur d’information répond, le message est automatiquement publié sur ce site Web et vous obtenez un avis automatique avec un lien vers la réponse. Tout le monde arrive à voir la correspondance et cette façon, ils n’ont pas besoin de poser la même question encore une fois, et ils peuvent constater que le Gouvernement de la République est Ouvert et Transparent.
 •	classer la réponse : essayez de marquer votre demande afin de montrer si vous êtes satisfait de la réponse, s’il y a des informations manquantes, ou si l’information a été refusée.
-
+</ul>
 Si vous n’êtes pas satisfait par les informations qui vous sont fournis, ou si vous pensez que vous avez été injustement refusé l’accès aux documents ou parties de documents, vous avez le droit de contester la décision, en faisant un recours gracieux puis recours hiérarchique et enfin recours juridictionnel.
 Grâce à <%= site_name %>, vous ne pouvez formuler que le recours gracieux ou hiérarchique. <%= site_name %> vous donne des preuves irréfutables  pour un recours juridictionnel.
 
-  
+  </p>
 
     <dt id="which_authority">I'm not sure which authority to make my request to, how can I find out? <a href="#which_authority">#</a> </dt>
 
@@ -168,85 +172,47 @@ Grâce à <%= site_name %>, vous ne pouvez formuler que le recours gracieux ou h
     <dt id="no_response">What if I never get a response?<a href="#no_response">#</a> </dt>
 
     <dd>
-      <p>There are several things you can do if you never get a response.</p>
-      <ul>
-        <li>Sometimes there has been a genuine problem and the authority never
-          received the request. It is worth telephoning the authority and politely
-          checking that they received the request. It was sent to them by email.
-        </li>
-        <li>If they have not received it, the problem is most likely due to
-          "spam filters". Refer the authority to the measures in the answer
-          '<a href="<%= help_officers_path(:anchor => 'spam_problems') %>">I can see a request on <%= site_name %>, but we never got it by email!</a>'
-          in the FOI officers section of this help.
-        </li>
-        <li>If you're still having no luck, then you can ask for an internal review,
-          and then complain to the Information Commissioner about the authority.
-          Read our page '<a href="<%= help_general_path(:action => 'unhappy') %>">Unhappy about the response you got?</a>'.
-      </ul>
+      
+	  
+	  
     </dd>
 
     <dt id="not_satifised">What if I'm not satisfied with the response? <a href="#not_satifised">#</a> </dt>
-    <dd>If you didn't get the information you asked for, or you didn't get it in time,
-      then read our page '<a href="<%= help_general_path(:action => 'unhappy') %>">Unhappy about the response you got?</a>'.
+    <dd>
+	
     </dd>
 
     <dt id="reuse">It says I can't re-use the information I got!<a href="#reuse">#</a> </dt>
     <dd>
-      <p>Authorities often add legal boilerplate about the
-        "<a href="http://www.opsi.gov.uk/si/si2005/20051515">Re-Use of Public Sector
-          Information Regulations 2005</a>", which at first glance implies you may not
-        be able do anything with the information.
-      </p>
+      
 
-      <p>You can, of course, write articles about the information or summarise it, or
-        quote parts of it. We also think you should feel free to republish the
-        information in full, just as we do, even though in theory you might not be
-        allowed to do so.  See <a href="<%= help_officers_path(:anchor => 'copyright') %>">our policy on copyright</a>.</p>
-
+      
     </dd>
 
     <dt id="ico_help">Can you tell me more of the nitty gritty about the process of making requests? <a href="#ico_help">#</a> </dt>
 
     <dd>
-      <p>Have a look at the
-        <a href="http://www.ico.gov.uk/for_the_public/access_to_official_information.aspx">access to official information</a>
-        pages on the Information Commissioner's website.</p>
-
-      <p>If you're requesting information from a Scottish public authority,
-        the process is very similar. There are differences around time
-        limits for compliance.
-        See the <a href="http://www.itspublicknowledge.info/nmsruntime/saveasdialog.asp?lID=1858&amp;sID=321">Scottish
-          Information Commissioner's guidance</a> for details.</p>
+      
+	  
     </dd>
 
-    <dt id="data_protection">Can I request information about myself? <a href="#data_protection">#</a> </dt>
+    <dt id="data_protection">Puis-je demander des renseignements à mon sujet ? <a href="#data_protection">#</a> </dt>
 
     <dd>
-      <p>No. Requests made using <%= site_name %> are public, made under the Freedom of
-        Information Act, and cannot help you find information about a private
-        individual.</p>
-
-      <p>If you would like to know what information a public
-        authority holds about yourself, you should make a "Subject Access Request" in
-        private using Data Protection law.  The leaflet "<a
-        href="http://www.ico.gov.uk/upload/documents/library/data_protection/introductory/subject_access_rights.pdf">How to access your information</a>" (on the Information Commissioner's
-        website) explains how to do this.</p>
-
-      <p>If you see that somebody has included personal information, perhaps
-        unwittingly, in a request, please <a href="<%= help_contact_path %>">contact us</a>
-        immediately so we can remove it.</p>
+      <p>La loi vous permet, mais vous ne pouvez pas utiliser <%= site_name %> pour accéder aux informations personnelles 
+	  vous concernant. Prière de contacter le Collectif 24 pour qu’il vous donne les orientations sur comment avoir accès aux
+	  informations à caractère personnel voir liées à la santé car il a produit un guide pour l’accès à l’information et 
+	  protection des données personnelles ; accès à l’information dans le secteur de la santé. </p>
     </dd>
 
 
-    <dt id="private_requests">I'd like to keep my request secret! (At least until I publish my story) <a href="#private_requests">#</a> </dt>
+    <dt id="private_requests">Puis-je conserver ma demande confidentielle jusqu'à ce que je libère mon histoire/article ? <a href="#private_requests">#</a> </dt>
 
-    <dd><p><%= site_name %> is currently only designed for public requests. All
-        responses that we receive are automatically published on the website for anyone
-        to read.  </p>
-      <p>You should contact the public authority directly if you would like to
-        make a request in private.  If you're interested in buying a system which helps
-        you manage FOI requests in secret, then <a href="<%= help_contact_path %>">contact us</a>.
-      </p>
+    <dd><p><%= site_name %> est destiné aux demandes du public. Toutes les réponses que nous recevons sont automatiquement
+	publiées sur le site Web pour que n’importe puisse les lire. Si vous êtes un journaliste, ONG ou toute autre personne 
+	qui veut garder la réponse privée jusqu'à ce que vous avez écrit votre histoire ou pour d’autres raisons, mettez-vous 
+	en contact avec nous pour vous fournir l’adresse mail de l’Institution et le protocole de confidentialité.
+
     </dd>
 
     <dt id="eir">Why can I only request information about the environment from some authorities? <a href="#eir">#</a> </dt>
