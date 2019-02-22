@@ -1273,7 +1273,7 @@ msgid "Hello! You can make Freedom of Information requests within {{country_name
 msgstr "Bonjour ! Vous pouvez faire des demandes de Publicité de l'administration en {{country_name}} via {{link_to_website}} et aux institutions européennes via {{link_to_asktheeu}}"
 
 msgid "Help"
-msgstr "Aide"
+msgstr "A propos"
 
 msgid "Help us classify requests that haven't been updated"
 msgstr "Aidez-nous à classer les demandes qui ne sont pas mises à jour"
