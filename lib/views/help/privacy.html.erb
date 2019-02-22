@@ -6,14 +6,27 @@
   <h1 id="privacy"><%= @title %> <a href="#privacy">#</a></h1>
   <dl>
 
-    <dt id="email_address">Who gets to see my email address? <a href="#email_address">#</a> </dt>
+    <dt id="email_address">Qui peut voir mon adresse email ? <a href="#email_address">#</a> </dt>
 
-    <dd><p>We will not disclose your email address to anyone unless we are obliged to by law,
-        or you ask us to. This includes the public authority that you are sending a
-        request to.  They only get to see an email address
-        @<%= AlaveteliConfiguration::incoming_email_domain %> which is specific to that request.  </p>
-      <p>If you send a message to another user on the site, then it will reveal your
-        email address to them. You will be told that this is going to happen.</p>
+    <dd>
+	<p>Votre adresse e-mail n’est pas visible dans le site. Seul l’administrateur du site qui en possède
+	dans son serveur et ne peut jamais le rendre public sans votre accord. <%= site_name %> a son serveur
+	à Californie aux USA qui est contraint par la loi sur la protection des données personnelles. Votre 
+	adresse e-mail n’est même pas transmise à l’institution qui ne voie que @<%= site_name %> avec votre
+	demande et dois vous répondre en cliquant sur un lien qui n’est pas votre adresse e-mail. Parce que vous
+	avez utilisé le site pour formuler votre demande, vous aurez la réponse dans votre boite e-mail via aussi
+	le site. Personne ne peut intercepter votre adresse e-mail. 
+    </p>
+    <p>
+	Ceci étant, <%= site_name %> étant la seule interface entre vous et l’autorité, se réserve le droit de
+	poursuivre judiciairement tout utilisateur qui ne demanderait pas l’information, mais profiterait de la
+	plate forme, derrière son anonymat, pour injurieux l’autorité. En cas de dérapage, si l’autorité se plaint
+	auprès de la Justice, sur demande de celle-ci, <%= site_name %> peut donner votre adresse mail au procureur
+	qui lui présente d’avance les preuves infractionnelles de l’utilisateur du site. Votre adresse mail ne peut
+	jamais être utilisée automatiquement, même pas pour un newsletter quelconque. Pour recevoir nos newsletters,
+	vous devez vous inscrire vous-même en acceptant nos conditions.
+
+	</p>
     </dd>
 
     <dt id="nasty_spam">Will you send nasty, brutish spam to my email address? <a href="#nasty_spam">#</a> </dt>
