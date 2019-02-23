@@ -23,68 +23,84 @@
       Ce sont les paramètres que vous pouvez ajouter à ces URL, soit dans l'URL, soit à partir d'un formulaire.
       </p>
         <ul>
-          <li> <strong>title</strong> - default summary of the new request.</li>
-          <li> <strong>default_letter</strong> - default text of the body of the letter. The salutation (Dear...) and signoff (Yours...) are wrapped round this. </li>
-          <li> <strong>body</strong> - as an alternative to default_letter, this sets the default entire text of the request, so you can customise the salutation and signoff. </li>
-          <li> <strong>tags</strong> - space separated list of tags, so you can find and link up any requests made later, e.g. <em>openlylocal spending_id:12345</em>. The : indicates it is a machine tag. The values of machine tags may also include colons, useful for URIs.
+          <li> <strong>title</strong> - résumé par défaut de la nouvelle demande.</li>
+          <li> <strong>default_letter</strong> - texte par défaut du corps de la lettre. La salutation (Cher ...) 
+		  et la signature (Vôtre ...) sont enroulées autour de cela. </li>
+          <li> <strong>body</strong> - au lieu de default_letter, le texte entier par défaut de la demande est défini 
+		  pour vous permettre de personnaliser la salutation et la signature.</li>
+          <li> <strong>tags</strong> - liste de tags, séparés par des espaces, pour que vous puissiez rechercher et 
+		  relier toutes les demandes faites ultérieurement, par exemple. openlylocal depenser_id: 12345. 
+		  Le: indique qu'il s'agit d'une machine tag. Les valeurs des balises machine peuvent également inclure
+		  des deux-points, utiles pour les URI.
         </ul>
     </dd>
 
-    <dt>RSS (actually, Atom) feeds</dt>
+    <dt>Flux RSS (actualité, Atom) </dt>
     <dd>
-      <p>There are Atom feeds on most pages which list FOI requests, which you can
-        use to get updates and links in XML format. Find the URL of the Atom feed in
-        one of these ways:
+      <p>Sur la plupart des pages, des flux Atom répertorient les demandes d'accès à l'information que vous pouvez 
+	  utiliser pour obtenir les mises à jour et les liens au format XML. Recherchez l'URL du flux Atom de l'une des
+	  manières suivantes:
       </p>
         <ul>
-          <li>Look for the <%= image_tag "feed-16.png", :alt => "RSS icon" %> RSS feed links.</li>
-          <li>Examine the <code>&lt;link rel="alternate" type="application/atom+xml"&gt;</code> tag in the head of the HTML. </li>
-          <li>Add <code>/feed</code> to the start of another URL.
+          <li>Recherchez les liens de flux RSS. <%= image_tag "feed-16.png", :alt => "RSS icon" %> </li>
+          <li>Examinez la balise  <code>&lt;link rel="alternate" type="application/atom+xml"&gt;</code> dans 
+		  l'en-tête du code HTML. </li>
+          <li> Ajouter <code>/feed</code> au début d'une autre URL.</li>
         </ul>
 
-        <p>In particular, even complicated search queries have Atom feeds.
-          You can do all sorts of things with them, such as query by authority, by file
-          type, by date range, or by status. See the <a href="<%= advanced_search_path %>">advanced search
-            tips</a> for details.
+        <p>En particulier, même les requêtes de recherche compliquées ont des flux Atom. Vous pouvez faire toutes 
+		sortes de choses avec eux, telles que la requête par autorité, par type de fichier, par plage de dates ou 
+		par statut. Voir les astuces de recherche avancée pour plus de détails.
         </p>
     </dd>
 
-    <dt>JSON structured data</dt>
+    <dt>Données structurées JSON</dt>
     <dd>
-      <p>Quite a few pages have JSON versions, which let you download information about
-        objects in a structured form. Find them by:
+      <p>De nombreuses pages ont des versions JSON, qui vous permettent de télécharger des informations sur les 
+	  objets dans un formulaire structuré. Trouvez-les par:
       </p>
       <ul>
-        <li>Adding <code>.json</code> to the end of the URL. </li>
-        <li>Look for the <code>&lt;link rel="alternate" type="application/json"&gt;</code> tag in the head of the HTML. </li>
+        <li>Ajout de  <code>.json</code> à la fin de l'URL. </li>
+        <li>Recherchez la balise <code>&lt;link rel="alternate" type="application/json"&gt;</code> 
+		dans l'en-tête du code HTML. </li>
       </ul>
 
-      <p>Requests, users and authorities all have JSON versions containing basic
-        information about them. Every Atom feed has a JSON equivalent, containing
-        information about the list of events in the feed.
+      <p>Les demandes, les utilisateurs et les autorités ont tous des versions JSON contenant des informations de
+	  base à leur sujet. Chaque flux Atom a un équivalent JSON, contenant des informations sur la liste des 
+	  événements dans le flux.
       </p>
     </dd>
 
-    <dt>Spreadsheet of all authorities</dt>
+    <dt>Tableur de toutes les autorités</dt>
     <dd>
       <p>
-        A spreadsheet file listing every body in <%= site_name %> is available:
+        AUn fichier tableur répertoriant tous les utilisateurs de <%= site_name %> est disponible: 
         <%= link_to "all-authorities.csv", all_public_bodies_csv_path %>
       </p>
 
     </dd>
 
 
-    <dt> 5. Write API </dt>
+    <dt> 5. 5. Écrire une api </dt>
     <dd>
       <p>
-        The write API is designed to be used by authorities to create their own requests in the system. The API is currently used by mySociety's <a href="https://github.com/mysociety/foi-register">FOI Register software</a> to support using Alaveteli as a disclosure log for all FOI activity at a particular public body. More technical information about the write API is available on the <a href="https://github.com/mysociety/alaveteli/wiki/API#write-api">Alaveteli wiki</a>.
+	  
+	  L'API d'écriture est conçue pour être utilisée par les autorités pour créer leurs propres demandes
+	  dans le système. Le logiciel <a href="https://github.com/mysociety/foi-register">FOI Register de mySociety </a>
+	  utilise actuellement l'API pour prendre en charge l'utilisation d'Alaveteli en tant que journal de divulgation
+	  pour toutes les activités FOI dans un organisme public donné. Plus d'informations techniques sur l'API
+	  d'écriture sont disponibles sur le 
+	  <a href="https://github.com/mysociety/alaveteli/wiki/API#write-api">wiki d'Alaveteli.</a>
+	  
       </p>
     </dd>
   </dl>
 
-  <p>Please <a href="<%= help_contact_path %>">contact us</a> if you need an API feature that isn't there yet. It's
-    very much a work in progress, and we do add things when people ask us to.</p>
+  <p>
+  Veuillez <a href="<%= help_contact_path %>">nous contacter </a> si vous avez besoin d'une fonctionnalité d'API qui
+  n'existe pas encore. C'est vraiment   un travail en cours, et nous ajoutons des choses lorsque les gens nous le 
+  demandent.
+  </p>
 
   <div id="hash_link_padding"></div>
 </div>
