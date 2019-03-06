@@ -1,4 +1,4 @@
-<% @title = "Contact us" %>
+<% @title = "Contactez nous" %>
 
 <%= foi_error_messages_for :contact %>
 
@@ -7,35 +7,29 @@
 <div id="contact_preamble" class="contact_preamble">
 
   <% if !flash[:notice] %>
-    <h2>Contact an authority to get official information</h2>
+    <h2>Contacter une autorité pour obtenir des informations officielles</h2>
     <ul>
-      <li><a href="<%= new_request_path %>">Go here</a> to make a request, in public, for information
-        from public authorities.</li>
+      <li><a href="<%= new_request_path %>">Cliquez ici</a> pour faire une demande publique d'informations aux autorités publiques.</li>
 
       <li>
-        Asking for private information about yourself?
-        Please read our
-        <a href="<%= help_requesting_path(:anchor => 'data_protection') %>">help page</a>.
+        Demander des informations privées sur vous-même? Veuillez lire 
+        <a href="<%= help_requesting_path(:anchor => 'data_protection') %>">notre page d'aide.</a>.
       </li>
     </ul>
 
   <% end %>
 
-  <h2>Contact the <%= site_name %> team</h2>
+  <h2>Contacter <%= site_name %>l'équipe Tunabakonzi</h2>
   <% if !flash[:notice] %>
     <ul>
       <li>
-        Please read the  <a href="<%= help_about_path %>">help page</a> first, as it may
-        answer your question quicker.
+	  Veuillez lire <a href="<%= help_about_path %>">la page d’aide</a> en premier, car elle pourrait répondre à votre question plus rapidement.
       </li>
 
-      <li>We'd love to hear how you've found using this site.
-        Either fill in this form, or send an email to <a
-                            href="mailto:<%=@contact_email%>"><%=@contact_email%></a>
+      <li>Nous aimerions savoir comment vous avez découvert l'utilisation de ce site. Remplissez ce formulaire ou envoyez un courrier électronique à <a href="mailto:<%=@contact_email%>"><%=@contact_email%></a>
       </li>
 
-      <li>We are a <strong>charity</strong> and not part of the
-        Government.</li>
+      <li> Nous sommes un <strong>organisme de bienfaisance </strong>et ne faisons pas partie du gouvernement. </li>
     </ul>
   <% end %>
 </div>
@@ -44,24 +38,24 @@
 
   <% if not @user %>
     <p>
-      <label class="form_label" for="contact_name">Your name:</label>
+      <label class="form_label" for="contact_name">Votre Nom:</label>
       <%= f.text_field :name, :size => 20 %>
-      (or <%= link_to "sign in", signin_path(:r => request.fullpath) %>)
+      (or <%= link_to "Inscrivez-vous", signin_path(:r => request.fullpath) %>)
     </p>
 
     <p>
-      <label class="form_label" for="contact_email">Your email:</label>
+      <label class="form_label" for="contact_email">Votre email:</label>
       <%= f.text_field :email, :size => 20 %>
     </p>
   <% end %>
 
   <p>
-    <label class="form_label" for="contact_subject">Subject:</label>
+    <label class="form_label" for="contact_subject">Sujet:</label>
     <%= f.text_field :subject, :size => 50 %>
   </p>
 
   <p>
-    <label class="form_label" for="contact_message">Message to website:</label>
+    <label class="form_label" for="contact_message">Votre Message:</label>
     <%= f.text_area :message, :rows => 10, :cols => 60 %>
   </p>
 
@@ -74,26 +68,24 @@
     <p>
       <label class="form_label" for="contact_message">Include link to request:</label>
       <%=request_link(@last_request) %>
-      <%= submit_tag "remove", :name => 'remove' %>
+      <%= submit_tag "Supprimer", :name => 'remove' %>
     </p>
   <% end %>
   <% if !@last_body.nil? %>
     <p>
       <label class="form_label" for="contact_message">Include link to authority:</label>
       <%=public_body_link(@last_body) %>
-      <%= submit_tag "remove", :name => 'remove' %>
+      <%= submit_tag "Supprimer", :name => 'remove' %>
     </p>
   <% end %>
 
   <p class="form_note">
-    We can only help you with <strong>technical problems</strong>, or questions
-    about Freedom of Information.
-  </p>
+  Nous ne pouvons que vous aider avec <strong>des problèmes techniques</strong> ou des questions concernant la liberté de l'information. </p>
 
 
   <div class="form_button">
     <%= hidden_field_tag(:submitted_contact_form, 1) %>
-    <%= submit_tag "Send message to the charity", :data => { :disable_with => "Sending..." } %>
+    <%= submit_tag "Envoyez votre Message", :data => { :disable_with => "Envoi en cours..." } %>
     &lt;-- we run this site, not the Government!
   </div>
 
