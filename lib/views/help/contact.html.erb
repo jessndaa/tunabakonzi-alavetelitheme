@@ -66,14 +66,14 @@
 
   <% if !@last_request.nil? %>
     <p>
-      <label class="form_label" for="contact_message">Include link to request:</label>
+      <label class="form_label" for="contact_message">Ajouter ce lien à la demande :</label>
       <%=request_link(@last_request) %>
       <%= submit_tag "Supprimer", :name => 'remove' %>
     </p>
   <% end %>
   <% if !@last_body.nil? %>
     <p>
-      <label class="form_label" for="contact_message">Include link to authority:</label>
+      <label class="form_label" for="contact_message">Ajouter ce lien à la demande de l'autorités :</label>
       <%=public_body_link(@last_body) %>
       <%= submit_tag "Supprimer", :name => 'remove' %>
     </p>
@@ -81,7 +81,6 @@
 
   <p class="form_note">
   Nous ne pouvons que vous aider avec <strong>des problèmes techniques</strong> ou des questions concernant la liberté de l'information. </p>
-
 
   <div class="form_button">
     <%= hidden_field_tag(:submitted_contact_form, 1) %>
