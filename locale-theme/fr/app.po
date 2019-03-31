@@ -153,7 +153,7 @@ msgid "(show)"
 msgstr "(Afficher)"
 
 msgid "*unknown*"
-msgstr "*unknown*"
+msgstr "*Inconnu*"
 
 msgid ",\\n\\n\\n\\nYours,\\n\\n{{user_name}}"
 msgstr ",\\n\\n\\n\\nCordialement,\\n\\n{{user_name}}"
@@ -162,10 +162,10 @@ msgid "<a href=\"{{browse_url}}\">Browse all</a> or <a href=\"{{add_url}}\">ask 
 msgstr "<a href=\"{{browse_url}}\">Voir tout</a> ou <a href=\"{{add_url}}\"> demandez nous d'ajouter une</a>."
 
 msgid "<a href=\"{{new_request_link}}\">Make a new EIR request</a> to {{public_body_name}}"
-msgstr ""
+msgstr "<a href=\"{{new_request_link}}\">Faites une nouvelle demande </a> à {{public_body_name}}"
 
 msgid "<a href=\"{{new_request_link}}\">Make a new FOI request</a> to {{public_body_name}}"
-msgstr "<a href=\"{{new_request_link}}\">Make a new FOI request</a> à {{public_body_name}}"
+msgstr "<a href=\"{{new_request_link}}\">Faites une nouvelle demande d'information </a> à {{public_body_name}}"
 
 msgid "<a href=\"{{url}}\">Do you want to request private information about yourself?</a>"
 msgstr "<strong>Note de confidentialité:</strong> Si vous voulez demander des informations privées sur \\n vous-même alors <a href=\"{{url}}\">cliquez ici</a>."
