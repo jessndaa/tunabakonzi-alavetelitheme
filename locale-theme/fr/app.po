@@ -4665,7 +4665,7 @@ msgstr[0] "{{number_of_requests}} demandes restant à classer / {{total_number_o
 msgstr[1] "{{number_of_requests}} requests left to categorise / {{total_number_of_requests}} total"
 
 msgid "{{pro_site_name}} Terms"
-msgstr ""
+msgstr "{{pro_site_name}} Termes"
 
 msgid "{{public_body_link_absolute}}"
 msgstr ""
