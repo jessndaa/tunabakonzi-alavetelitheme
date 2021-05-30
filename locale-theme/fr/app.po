@@ -4543,7 +4543,7 @@ msgid "unknown status {{status}}"
 msgstr "état inconnu {{status}}"
 
 msgid "unresolved requests"
-msgstr "demandes qui n'ont pas encore aboutis"
+msgstr "demandes qui n'ont pas encore abouti"
 
 msgid "unsubscribe"
 msgstr "se désabonner"
