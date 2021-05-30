@@ -4543,7 +4543,7 @@ msgid "unknown status {{status}}"
 msgstr "état inconnu {{status}}"
 
 msgid "unresolved requests"
-msgstr "demandes qui n'ont pas encore abouti"
+msgstr "demandes qui n'ont pas encore aboutis"
 
 msgid "unsubscribe"
 msgstr "se désabonner"
@@ -4665,7 +4665,7 @@ msgstr[0] "{{number_of_requests}} demandes restant à classer / {{total_number_o
 msgstr[1] "{{number_of_requests}} requests left to categorise / {{total_number_of_requests}} total"
 
 msgid "{{pro_site_name}} Terms"
-msgstr "{{pro_site_name}} Termes"
+msgstr ""
 
 msgid "{{public_body_link_absolute}}"
 msgstr ""
