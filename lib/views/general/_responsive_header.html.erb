@@ -8,9 +8,10 @@
         <%= image_tag "rdc.png", width: 90, height: 90 %>
       </div>
 
-      <div style="float:right;">
+      <!--<div style="float:right;">
         <%= image_tag "drapeaurdc.gif", width: 100, height: 100 %>
       </div>
+      -->
 
       <div class="banner_site-title">
        <h1> <%= link_to site_name, frontpage_path, :id => 'logo', :class => 'site-title__logo' %></h1>
@@ -22,9 +23,9 @@
       </div>
 
       <%= render :partial => 'general/locale_switcher' %>
-<% if ! (controller.action_name == 'signin' or controller.action_name == 'signup' or controller.action_name == 'login') %>
+      <% if ! (controller.action_name == 'signin' or controller.action_name == 'signup' or controller.action_name == 'login') %>
         <%= render partial: 'general/log_in_bar' %>
-<% end %>
+      <% end %>
       <div id="navigation_search" class="navigation_search">
         <form id="navigation_search_form" class="navigation_search_form" method="get" action="<%= search_redirect_path %>" role="search">
           <label class="visually-hidden" for="navigation_search_button">
@@ -39,7 +40,6 @@
         </form>
       </div>
     </div>
-
     <%= render :partial => 'general/responsive_topnav' %>
   </div>
 </div>
