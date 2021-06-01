@@ -333,10 +333,9 @@ a.link_button_green_large {
 
 #navigation_search_button{
   background-color: $color_white;
-  border: none;
+  border: 1px solid;
   transition: all 0.3s ease-out;
   color: $color_primary;
-  border-radius: 0;
   font-size: inherit;
   border-radius: 50px;
 }
