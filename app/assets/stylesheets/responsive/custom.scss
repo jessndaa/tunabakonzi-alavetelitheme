@@ -294,7 +294,10 @@ a.link_button_green_large {
 #banner_inner {
   background-color: $banner_inner_bg;
 }
-
+.country__arm{
+  width: 200px,
+  height: 200px;
+}
 .site-title__logo {
   // Smaller logo on mobiles
   width: ($logo-width / 2);
