@@ -203,7 +203,7 @@ input.use-datepicker[type=text] {
 @mixin button-primary($args...) {
   @include button-base($args...);
   color: $color_white;
-  background-color: $button-bg;
+  background-color: $button-bg-white;
   border: none;
   &:hover,
   &:active,
@@ -934,12 +934,14 @@ dt {
   }
   .new-request__make-new-requests {
     @include button-base;
-    background-color: desaturate(darken($color_secondary, 10%), 5%);
-    color: $color_white;
+    background-color: desaturate(darken($color_light_grey, 10%), 5%);
+    color: $color_blue_rdc;
+    border-radius: 50px;
+    border: 1px solid;
     &:hover,
     &:active,
     &:focus {
-      background-color: darken($color_secondary, 20%);
+      background-color: darken($color_light_grey, 20%);
     }
   }
 }
