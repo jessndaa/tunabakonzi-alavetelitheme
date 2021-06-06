@@ -934,7 +934,7 @@ dt {
   }
   .new-request__make-new-requests {
     @include button-base;
-    background-color: desaturate(darken($color_light_grey, 10%), 5%);
+    background-color: $button-bg-white;
     color: $color_blue_rdc;
     border-radius: 50px;
     border: 1px solid;
