@@ -814,7 +814,9 @@ dt {
   }
   .steps__step-box{
     text-align: center;
-    color: #fff;
+    p{
+      color: #fff;
+    }
   }
   li:nth-child(1) > .steps__step-box{
     background-color: #b4060f;
