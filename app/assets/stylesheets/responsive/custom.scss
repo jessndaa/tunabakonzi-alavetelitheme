@@ -814,9 +814,25 @@ dt {
   }
   .steps__step-box{
     text-align: center;
+    color: #fff;
   }
   li:nth-child(1) > .steps__step-box{
-    background-color: blue;
+    background-color: #b4060f;
+  }
+  li:nth-child(2) > .steps__step-box{
+    background-color: #0b0741;
+  }
+  li:nth-child(3) > .steps__step-box{
+    background-color: #000000;
+  }
+  li:nth-child(1) > .steps__step-number{
+    background-color: #000100;
+  }
+  li:nth-child(2) > .steps__step-number{
+    background-color: #0079ff;
+  }
+  li:nth-child(3) > .steps__step-number{
+    background-color: #fb0300;
   }
 }
 
