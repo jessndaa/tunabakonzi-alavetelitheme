@@ -812,6 +812,9 @@ dt {
       margin-left: 0 !important;
     }
   }
+  &:nth-child(1) > .steps__step-box{
+    background-color: blue;
+  }
 }
 
 .steps__step-box {
