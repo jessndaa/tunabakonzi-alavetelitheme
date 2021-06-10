@@ -815,7 +815,7 @@ dt {
   .steps__step-box{
     text-align: center;
   }
-  &:nth-child(1n) > .steps__step-box{
+  li:nth-child(1) > .steps__step-box{
     background-color: blue;
   }
 }
