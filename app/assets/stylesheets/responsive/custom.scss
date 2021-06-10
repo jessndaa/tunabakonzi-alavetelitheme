@@ -812,7 +812,10 @@ dt {
       margin-left: 0 !important;
     }
   }
-  &:nth-child(1) > .steps__step-box{
+  .steps__step-box{
+    text-align: center;
+  }
+  &:nth-child(1n) > .steps__step-box{
     background-color: blue;
   }
 }
